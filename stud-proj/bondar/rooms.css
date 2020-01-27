@@ -1,0 +1,55 @@
+.page{
+    margin-top: 40px;
+    padding-left: 170px;
+}
+
+.rightpic {
+    float: right;
+    margin: -30px -10px 10px 10px;
+}
+
+.leftpic {
+  float: left;
+  margin: -30px 10px 0px -10px;
+}
+
+#box {
+  width: 75%;
+  height: 345px;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 4px ridge royalblue;
+  padding:10px;
+  margin-top: 0px;
+  margin-left: 120px;
+  margin-right: auto;
+}
+
+h1 {
+  margin-top: 55px;
+  padding-left: 50px;
+}
+
+h2 {
+  margin-top:-10px;
+  text-align: center;
+}
+
+
+#box img {
+  border: 2px solid royalblue;
+}
+
+body {background: url(images/background.jpg);
+color: white;
+}
+
+.butt{
+  color: #0000CD;
+}
+
+.butt:hover {
+  color: white;
+}

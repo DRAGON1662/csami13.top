@@ -1,0 +1,30 @@
+td {
+    border: 2px solid royalblue;
+    text-align: left;
+}
+
+tr {
+    height: 40px;
+    background-color: #dddddd;
+}
+
+table {
+  font-family: arial;
+  width: 70%;
+  margin-bottom: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px ridge royalblue;
+}
+
+#contacts {
+	padding-top: 190px;
+}
+
+#contacts h1 {
+  color: white;
+  text-align: center;
+  background-color: royalblue;
+  margin-left: 15%;
+  margin-right: 15%;
+}

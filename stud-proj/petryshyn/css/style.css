@@ -1,0 +1,1113 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: zonaarmada;
+  src: url(../fonts/zonaarmada.ttf);
+}
+@font-face {
+  font-family: Roboto-MediumItalic;
+  src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Cambria;
+    src: url(../fonts/cambria.ttf);
+  }
+  
+
+a:active{
+    color: red;
+}
+
+
+#cube1{
+    position: absolute;
+    left: 8%;
+    top: 80%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s1;
+    animation-duration:1s;
+}
+@keyframes s1{
+    0%{left: 8%;top: -20%}
+    100%{left: 8%;top: 80%}
+}
+#cube2{
+    position: absolute;
+    left: 32%;
+    top: 80%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s2;
+    animation-duration:1s;
+}
+@keyframes s2{
+    0%{left: 32%;top: -20%}
+    100%{left: 32%;top: 80%}
+}
+#cube3{
+    position: absolute;
+    left: 41%;
+    top: 80%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s3;
+    animation-duration:1s;
+}
+@keyframes s3{
+    0%{left: 41%;top: -20%}
+    100%{left: 41%;top: 80%}
+}
+#cube4{
+    position: absolute;
+    left: 65%;
+    top: 80%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s4;
+    animation-duration:1s;
+}
+@keyframes s4{
+    0%{left: 65%;top: -20%}
+    100%{left: 65%;top: 80%}
+}
+#cube5{
+    position: absolute;
+    left: 74%;
+    top: 80%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s5;
+    animation-duration:1s;
+}
+@keyframes s5{
+    0%{left: 74%;top: -20%}
+    100%{left: 74%;top: 80%}
+}
+#cube6{
+    position: absolute;
+    left: 92%;
+    top: 80%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s6;
+    animation-duration:1s;
+}
+@keyframes s6{
+    0%{left: 92%;top: -20%}
+    100%{left: 92%;top: 80%}
+}
+#cube7{
+    position: absolute;
+    left: 8%;
+    top: 60%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s7;
+    animation-duration: 1s;
+}
+@keyframes s7{
+    0%{left: 8%;top: -20%}
+    100%{left: 8%;top: 60%}
+}
+#cube8{
+    position: absolute;
+    left: 32%;
+    top: 60%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s8;
+    animation-duration:1s;
+}
+@keyframes s8{
+    0%{left: 32%;top: -20%}
+    100%{left: 32%;top: 60%}
+}
+#cube9{
+    position: absolute;
+    left: 41%;
+    top: 60%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s9;
+    animation-duration: 1s;
+}
+@keyframes s9{
+    0%{left: 41%;top: -20%}
+    100%{left: 41%;top: 60%}
+}
+#cube10{
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s10;
+    animation-duration:1s;
+}
+@keyframes s10{
+    0%{left: 65%;top: -20%}
+    100%{left: 65%;top: 60%}
+}
+#cube11{
+    position: absolute;
+    left: 74%;
+    top: 60%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s11;
+    animation-duration:1s;
+}
+@keyframes s11{
+    0%{left: 74%;top: -20%}
+    100%{left: 74%;top: 60%}
+}
+#cube12{
+    position: absolute;
+    left: 86%;
+    top: 60%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s12;
+    animation-duration:1s;
+}
+@keyframes s12{
+    0%{left: 86%;top: -20%}
+    100%{left: 86%;top: 60%}
+}
+#cube13{
+    position: absolute;
+    left: 8%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s13;
+    animation-duration: 1s;
+}
+@keyframes s13{
+    0%{left: 8%;top: -20%}
+    100%{left: 8%;top: 40%}
+}
+#cube14{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s14;
+    animation-duration: 1s;
+}
+@keyframes s14{
+    0%{left: 20%;top: -20%}
+    100%{left: 20%;top: 40%}
+}
+#cube15{
+    position: absolute;
+    left: 32%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s15;
+    animation-duration: 1s;
+}
+@keyframes s15{
+    0%{left: 32%;top: -20%}
+    100%{left: 32%;top: 40%}
+}
+#cube16{
+    position: absolute;
+    left: 41%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s16;
+    animation-duration: 1s;
+}
+@keyframes s16{
+    0%{left: 41%;top: -20%}
+    100%{left: 41%;top: 40%}
+}
+#cube17{
+    position: absolute;
+    left: 53%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s17;
+    animation-duration: 1s;
+}
+@keyframes s17{
+    0%{left: 53%;top: -20%}
+    100%{left: 53%;top: 40%}
+}
+#cube18{
+    position: absolute;
+    left: 65%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s18;
+    animation-duration: 1s;
+}
+@keyframes s18{
+    0%{left: 65%;top: -20%}
+    100%{left: 65%;top: 40%}
+}
+#cube19{
+    position: absolute;
+    left: 74%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s19;
+    animation-duration: 1s;
+}
+@keyframes s19{
+    0%{left: 74%;top: -20%}
+    100%{left: 74%;top: 40%}
+}
+#cube20{
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s20;
+    animation-duration: 1s;
+}
+@keyframes s20{
+    0%{left: 80%;top: -20%}
+    100%{left: 80%;top: 40%}
+}
+#cube21{
+    position: absolute;
+    left: 86%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s21;
+    animation-duration: 1s;
+}
+@keyframes s21{
+    0%{left: 86%;top: -20%}
+    100%{left: 86%;top: 40%}
+}
+#cube22{
+    position: absolute;
+    left: 92%;
+    top: 40%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s22;
+    animation-duration: 1s;
+}
+@keyframes s22{
+    0%{left: 92%;top: -20%}
+    100%{left: 92%;top: 40%}
+}
+#cube23{
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s23;
+    animation-duration: 1s;
+}
+@keyframes s23{
+    0%{left: 8%;top: -20%}
+    100%{left: 8%;top: 20%}
+}
+#cube24{
+    position: absolute;
+    left: 14%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s24;
+    animation-duration: 1s;
+}
+@keyframes s24{
+    0%{left: 14%;top: -20%}
+    100%{left: 14%;top: 20%}
+}
+#cube25{
+    position: absolute;
+    left: 26%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s25;
+    animation-duration: 1s;
+}
+@keyframes s25{
+    0%{left: 26%;top: -20%}
+    100%{left: 26%;top: 20%}
+}
+#cube26{
+    position: absolute;
+    left: 32%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s26;
+    animation-duration: 1s;
+}
+@keyframes s26{
+    0%{left: 32%;top: -20%}
+    100%{left: 32%;top: 20%}
+}
+#cube27{
+    position: absolute;
+    left: 41%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s27;
+    animation-duration: 1s;
+}
+@keyframes s27{
+    0%{left: 41%;top: -20%}
+    100%{left: 41%;top: 20%}
+}
+#cube28{
+    position: absolute;
+    left: 47%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s28;
+    animation-duration: 1s;
+}
+@keyframes s28{
+    0%{left: 47%;top: -20%}
+    100%{left: 47%;top: 20%}
+}
+#cube29{
+    position: absolute;
+    left: 59%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s29;
+    animation-duration: 1s;
+}
+@keyframes s29{
+    0%{left: 59%;top: -20%}
+    100%{left: 59%;top: 20%}
+}
+#cube30{
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s30;
+    animation-duration: 1s;
+}
+@keyframes s30{
+    0%{left: 65%;top: -20%}
+    100%{left: 65%;top: 20%}
+}
+#cube31{
+    position: absolute;
+    left: 74%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s31;
+    animation-duration: 1s;
+}
+@keyframes s31{
+    0%{left: 74%;top: -20%}
+    100%{left: 74%;top: 20%}
+}
+#cube32{
+    position: absolute;
+    left: 92%;
+    top: 20%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s32;
+    animation-duration: 1s;
+}
+@keyframes s32{
+    0%{left: 92%;top: -20%}
+    100%{left: 92%;top: 20%}
+}
+#cube33{
+    position: absolute;
+    left: 8%;
+    top: 0%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s33;
+    animation-duration: 1s;
+}
+@keyframes s33{
+    0%{left: 8%;top: -20%}
+    100%{left: 8%;top: 0%}
+}
+#cube34{
+    position: absolute;
+    left: 32%;
+    top: 0%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s34;
+    animation-duration: 1s;
+}
+@keyframes s34{
+    0%{left: 32%;top: -20%}
+    100%{left: 32%;top: 0%}
+}
+#cube35{
+    position: absolute;
+    left: 41%;
+    top: 0%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s35;
+    animation-duration: 1s;
+}
+@keyframes s35{
+    0%{left: 41%;top: -20%}
+    100%{left: 41%;top: 0%}
+}
+#cube36{
+    position: absolute;
+    left: 65%;
+    top: 0%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s36;
+    animation-duration: 1s;
+}
+@keyframes s36{
+    0%{left: 65%;top: -20%}
+    100%{left: 65%;top: 0%}
+}
+#cube37{
+    position: absolute;
+    left: 74%;
+    top: 0%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s37;
+    animation-duration: 1s;
+}
+@keyframes s37{
+    0%{left: 74%;top: -20%}
+    100%{left: 74%;top: 0%}
+}
+#cube38{
+    position: absolute;
+    left: 80%;
+    top: 0%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s38;
+    animation-duration: 1s;
+}
+@keyframes s38{
+    0%{left: 80%;top: -20%}
+    100%{left: 80%;top: 0%}
+}
+#cube39{
+    position: absolute;
+    left: 86%;
+    top: 0%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s39;
+    animation-duration: 1s;
+}
+@keyframes s39{
+    0%{left: 86%;top: -20%}
+    100%{left: 86%;top: 0%}
+}
+#cube40{
+    position: absolute;
+    left: 92%;
+    top: 0%;
+    width: 20px;
+    height: 20px;  
+    animation-name: s40;
+    animation-duration: 1s;
+}
+@keyframes s40{
+    0%{left: 92%;top: -20%}
+    100%{left: 92%;top: 0%}
+}
+*{
+    padding: 0;
+    margin-top: 10px;
+}
+body{
+    background: url(../img/bg.gif);
+    width: 100%;
+    overflow-x: hidden; 
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: black;
+    text-decoration: none;
+}
+#anim{
+    position: relative;
+    width:400px;
+    height:120px;
+    left: 60%;
+    top: 8px;
+}
+#logotype{
+    width:25%;
+    height: 12vw;
+    position:absolute;
+    top:10%;
+    left: 5vw;    
+    padding:15px;    
+    box-shadow:
+        0 1px 4px rgba(0, 0, 0, 0),
+        23px 0 23px -20px rgba(0, 0, 0, .8),
+        -23px 0 23px -20px rgba(0, 0, 0, .8),
+        0 0 40px rgba(0, 0, 0, .0) ;
+}
+#logotype img{
+    width: 100%;
+}
+nav{
+    font-family: Candara;
+    position: relative;
+    width: 100%;
+    height: 5vw;
+    background-color: #ec0000; 
+    color: white;
+    padding-left: 37%;
+    margin-top: 1vw;
+}
+nav li{
+    font-weight: bold;
+    list-style-type: none;
+    float: left;
+    margin-top: 1.5vw;
+    margin-left: 5vw;
+    font-size: 20px;
+}
+.burger_button{
+    display: none;
+}
+.burger_button img{
+    position: absolute;
+    padding-top: 2vw; 
+    width: 4vw;
+}
+input[type=checkbox]{
+    display: none;  
+}
+#title_text{
+    color: #c7c5c5;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria;
+    font-style: italic;
+}
+#main_text{
+    font-family: Roboto-Bold;
+    color: white;
+    position: relative;
+    width: 960px;
+    left:18%;
+    top: 106%;
+    float: left;
+    padding-bottom: 1vw;
+    font-size: 28px; 
+    z-index: 2;
+}
+#main_text #lists{
+    font-size: 28px; 
+    font-weight: bold;
+    color: #f14343;
+}
+#main_text li{
+    font-size: 25px;
+    color: white;
+    font-weight: normal;
+}
+#main_text ul{
+    list-style-type: none;
+}
+.style_of_price_text{
+    font-size: 35px;
+    font-family: zonaarmada;
+    color: #f14343;
+}
+#coments{
+    position: relative;
+    left: 18%;
+    width:960px;
+    height: 350px;
+    font-family: Roboto-Bold;
+    text-align: left; 
+    padding-bottom: 5px; 
+}
+.com1{
+    border: 5px solid #FC6060;
+    padding-left: 5px; 
+    width: 100%;
+    height: 25%;
+    background-color: #ec0000;
+    
+}
+.com2{
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+}
+.com3{
+    font-size: 17px;
+    float: right;
+}
+.com4{
+    font-size: 17px;
+    color: black
+}
+textarea{
+    height: 170px;
+    width:380px;
+    float: right;
+    color: black;
+}
+input[type=text],input[type=email]{
+    float: right;
+    color: black;
+}
+#info_for_comment{
+    position: relative;
+    left: 18%;
+    width:960px;
+    height: 350px;
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+}
+#button_to_leave_massage{
+    cursor: pointer;
+    float: right;
+}
+#button_to_leave_massage:hover{
+    content: url(../img/buthov.png);
+}
+.text4{
+    font-size: 17px;
+}
+.text5{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10vw;
+    float: left;
+    height: 170px;
+    width: 320px;
+    color: #c7c5c5;;
+    font-family: Candara;
+    
+}
+.text3{
+    color: #f14343;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top:5px;
+}
+#block_with_photos{
+    position: relative;
+    left: 18%;
+    height: 9.3vw;
+	width: 990px;
+    float: left;
+}
+#block_with_photos img{
+	width: 32%;
+    height: 100%;
+    float: left;
+    margin: 2px;
+    border: 10px solid white;
+}
+#block_with_info{
+    padding-bottom: 12vw;
+    height: 170px; 
+    width: 960px;
+    position: relative;
+    top: 155%;
+    left: 18%;
+}
+#block_with_info ol{
+    font-weight: bold;
+    font-size:16px;
+    text-align: left;
+    margin-left: 16px;
+    padding-bottom: 3vw;
+    color: white;
+}
+#block_with_info li{
+    padding: 2px;
+}
+
+#line1{
+    position: relative;
+    width: 960px;   
+    padding-top: 5%;
+    left: 18%;
+}
+#line2{
+    position: relative;
+    width: 960px;
+    top:124%;
+    left: 18%;
+}
+footer{
+    padding-top: 3vw;
+    padding-bottom: 4vw;
+    position: relative;
+    width: 960px;   
+    left: 18%;
+    color: #c7c5c5;
+    font-family: Candara;
+    font-size: 14px;
+}
+.ending_info_left_side1{
+    float:left;
+}
+.ending_info_left_side2{
+    float:none;
+}
+.ending_info_right_side{  
+    float: right;
+}
+#ending_info_right_side a{
+    float: right;
+}
+#contacts{
+    padding: 1vw;
+    position: relative;
+    left: 18%;
+    background-color: #f14343;
+    height: 550px;
+    width: 960px;
+}
+#contacts img{
+    float: left;
+    margin-right: 2px; 
+    margin-bottom: 1vw; 
+    width: 49%;
+}
+
+
+
+
+/* Взято з інтернету*/
+#slider { /*положение слайдера*/
+    width: 960px;
+    margin-left: 18%;
+}
+#slides article{ /*все изображения справа друг от доруга*/
+	width: 20%;
+	float: left;
+}
+#slides .image{ /*устанавливает общий размер блока с изображениями*/
+	width: 500%;
+	line-height: 0;
+}
+#overflow{ /*сркывает все, что находится за пределами этого блока*/
+	width: 100%;
+	overflow: hidden;
+}
+article img{ /*размер изображений слайдера*/
+	width: 100%;
+}
+#desktop:checked ~ #slider{ /*размер всего слайдера*/
+	max-width: 960px; /*максимальнная длинна*/
+}
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#switch1:checked ~ #controls label:nth-child(5), 
+#switch2:checked ~ #controls label:nth-child(1),
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3),
+#switch5:checked ~ #controls label:nth-child(4){
+	background: url(../img/ArrowL.png) no-repeat; /*заливка фона картинкой без повторений*/
+	float: left;
+	margin: 2vw 0 0 -1vw; /*сдвиг влево*/
+	display: block;
+    height: 30px;
+    width: 30px;
+    background-size: 100%;
+}
+/*настройка переключения и положения для правой стрелки*/
+#switch1:checked ~ #controls label:nth-child(2), 
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(5),
+#switch5:checked ~ #controls label:nth-child(1){
+	background: url(../img/ArrowR.png) no-repeat; /*заливка фона картинкой без повторений*/
+	float: right;
+	margin: 2vw -1vw 0 0; /*сдвиг вправо*/
+	display: block;
+	height: 30px;
+    width: 30px;
+    background-size: 100%;
+}
+label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+	cursor: pointer;
+}
+.mainsl input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+	display: none;
+}
+.mainsl{
+    position: relative;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image{
+	margin-left: 0;
+}
+#switch2:checked ~ #slides .image{
+	margin-left: -100%;
+}
+#switch3:checked ~ #slides .image{
+	margin-left: -200%;
+}
+#switch4:checked ~ #slides .image{
+	margin-left: -300%;
+}
+#switch5:checked ~ #slides .image{
+	margin-left: -400%;
+}
+#controls{ /*положение блока всех управляющих элементов*/
+	margin: -32% 0 0 0;
+	width: 100%;
+	height: 50px;
+}
+#active label{ /*стиль отдельного переключателя*/
+	border-radius: 10px; /*скругление углов*/
+	display: inline-block; /*расположение в строку*/
+	width: 15px;
+	height: 15px;
+	background: #fff;
+}
+#active{ /*расположение блока с переключателями*/
+	margin: 22% 0 0;
+	text-align: center;
+}
+#active label:hover{ /*поведение чекбокса при наведении*/
+	background: #f14343;
+}
+/*цвет активного лейбла при активации чекбокса*/
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4),
+#switch5:checked ~ #active label:nth-child(5){
+	background: black;
+	border-color: black !important;
+}
+#slides .image{ /*анимация пролистывания изображений*/
+	transition: all 1100ms ease-out;
+}
+#controls label:hover{ /*прозрачность стрелок при наведении*/
+	opacity: 0.9;
+}
+#controls label{ /*прозрачность стрелок при отводе курсора*/
+	transition: opacity 0.2s ease-out;
+} 
+
+
+
+
+
+
+
+
+/*
+@media(max-width: 1600px){
+
+@media(max-width: 1000px){
+
+#logotype{
+    left: 25%;
+    width:35%;
+    height: 12vw;
+    position:absolute;
+    top:3%;
+    }
+#anim{
+    position: relative;
+    width:400px;
+    height:120px;
+    left: 80%;
+    top: 5vw;
+}
+.burger_button{
+        font-family: Cambria;
+        color: white;
+        display:block;
+        width: 100px;
+    }
+nav li{
+        float: none;
+    }
+nav{
+        position: absolute;
+        left: -30%;
+        top: 18%;
+        width: 18vw;
+        height: 27vw;
+        padding: 0;
+    }
+#burger_icon{
+        position: absolute;
+    }
+#burger_icon:checked~.navigation{
+    left:0;
+    transition: 0.5s;
+    }
+nav a{
+    color: white;
+    }
+nav li{
+    font-weight: bold;
+    list-style-type: none;
+    float: left;
+    margin-top: 1.5vw;
+    margin-left: 5vw;
+    font-size: 18px;
+}
+@media(max-width:740px){
+.burger_button img{
+    position: absolute;
+    padding-top: 2vw; 
+    width: 6vw;
+}
+#logotype{
+    left: 25%;
+    width:50%;
+    height: 12vw;
+    position:absolute;
+    top:3%;
+    }
+nav li{
+    font-weight: bold;
+    list-style-type: none;
+    float: left;
+    margin-top: 1.5vw;
+    margin-left: 5vw;
+    font-size: 17px;
+}
+nav{
+    position: absolute;
+    left: -30%;
+    top: 18%;
+    width: 24vw;
+    height: 45vw;
+    padding: 0;
+}
+}
+#burger_icon{
+    position: absolute;
+}
+#burger_icon:checked~nav{
+    left:0;
+    transition: 0.5s;
+}
+@media(max-width:460px){
+body{
+    padding-right: 3vw;
+}
+.burger_button img{
+    position: absolute;
+    padding-top: 2vw; 
+    width: 8vw;
+}
+    nav li{
+    font-weight: bold;
+    list-style-type: none;
+    float: left;
+    margin-top: 1.5vw;
+    margin-left: 5vw;
+    font-size: 16px;
+}
+#logotype{
+    left: 25%;
+    width: 50%;
+    height: 12vw;
+    position:absolute;
+    top:3%;
+    }
+    #anim{
+    position: relative;
+    width:400px;
+    height:120px;
+    left: 80%;
+    top: 5vw;
+    }
+nav{
+        position: absolute;
+        left: -30%;
+        top: 18%;
+        width: 24vw;
+        height: 42vw;
+        padding: 0;
+}
+}
+@media(max-width:320px){
+    body{
+        padding-right: 3vw;       
+    }
+    .burger_button img{
+        position: absolute;
+        padding-top: 2vw; 
+        width: 8vw;
+    }
+        .navigation li{
+        font-weight: bold;
+        list-style-type: none;
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 5vw;
+        font-size: 16px;
+    }
+    #logotype{
+        left: 25%;
+        width: 50%;
+        height: 12vw;
+        position:absolute;
+        top:3%;
+        }
+        #anim{
+        position: relative;
+        width:400px;
+        height:120px;
+        left: 80%;
+        top: 5vw;
+        }
+    .navigation{
+            position: absolute;
+            left: -50%;
+            top: 18%;
+            width: 35vw;
+            height: 42vw;
+            padding: 0;
+    }
+    }
+    */

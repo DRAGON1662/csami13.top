@@ -1,0 +1,25 @@
+.form {
+margin-top: 90px;
+padding-bottom: 170px;
+padding-left: 350px;
+color: white;
+}
+
+
+.butt{
+	color: black;
+}
+
+marquee {
+	background-color: royalblue;
+	color: red;
+}
+
+textarea {
+	color: black;
+	border: 4px ridge royalblue;
+}
+
+#line {
+	padding-top: 100px;
+}

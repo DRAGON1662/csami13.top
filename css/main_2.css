@@ -1,0 +1,174 @@
+﻿@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+.img_students{
+    width:235px;
+    height:290px;
+}
+
+
+
+
+
+/*PARAMETRS SECTION*/
+.params_s{
+	background: #fff;
+	padding: 95px 0;
+    padding-bottom:40px !important;
+}
+.param_block{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.param_block i{
+	font-size: 70px;
+	color: #e84545;
+}
+.param_block h3{
+	text-transform: uppercase;
+	font-family: "RalewayBold", sans-serif;
+	font-size: 18px;
+}
+.param_block p{
+	font-size: 14px;
+}
+
+
+.work_block{
+	position: relative;
+}
+.image_wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(232,69,69,.7);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	opacity: 0;
+}
+.work_block:hover .image_wrap{
+	opacity: 1;
+}
+.work_descr{
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+
+
+/*TEAM SECTION*/
+.team_s{
+	background: #fff;
+	padding: 0px 0;
+	color: #6c7279;
+}
+
+.team_item{
+ text-align: center;
+}
+
+.team_item h4{
+	font-family:OpenSans-Regular;
+	color: #000;
+}
+.team_item>span{
+	text-transform: uppercase;
+	color: #047fd0;
+	font-size: 14px;
+    font-family:OpenSans-Light;
+}
+.team_item p{
+	font-size: 14px;
+	padding: 10px 0;
+    font-family:OpenSans-Light;
+     text-align: justify;
+
+}
+.soc_btn{
+	border: 1px solid #c6cacc;
+	color: #c6cacc;
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
+}
+/*WORKS SECTION*/
+.work_block{
+	position: relative;
+}
+.image_wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(4, 127, 208, 0.7);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	opacity: 0;
+}
+.work_block:hover .image_wrap{
+	opacity: 1;
+}
+.work_descr{
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+.main_footer{
+	padding: 70px 0;
+	background-color: #3a3e64;
+}
+.footer_item{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footer_item h5{
+	font-family: OpenSans-Regular;
+	color: #fff;
+	text-transform: uppercase;
+}
+.footer_item p{
+	font-size: 14px;
+	color: #9d9fb2;
+}
+
+
+
+
+.copyright_block{
+	background-color: #313454;
+	text-align: center;
+	padding: 30px 0;
+}
+.copy_txt{
+	color: #9d9fb2;
+}
+
+/*MODALS*/
+#dlForm{
+	width: 70%;
+	margin: 0 auto;
+}
+#dlForm input{
+	margin-bottom: 15px;
+}
+
+
+

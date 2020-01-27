@@ -1,0 +1,55 @@
+
+@media only screen and (max-width : 480px) {
+    .logo_light {
+        background-image: url(../img/Logo/BetaWhite.png);
+        background-size: 70%;
+        height: 45px;
+    }
+
+    .logo_light:hover {
+        background-image: url("../img/Logo/BetaBlack.png");
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .logo_light {
+        background-image: url(../img/Logo/BetaWhite.png);
+        background-size: 70%;
+        height: 45px;
+    }
+   .logo_light:hover {
+        background-image: url("../img/Logo/BetaBlack.png");
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .logo_light {
+        background-image: url(../img/Logo/BetaWhite_white.png);
+        background-size: 100%;
+        width: 200px;
+        height: 60px;
+    }
+
+    .logo_light:hover {
+        background-image: url("../img/Logo/BetaBlack_white.png");
+    }
+}
+
+@media only screen and (max-width : 576px) {
+    .logo_light {
+        margin-left: 10px !important;
+    }
+
+    .logo_light_light {
+        margin-left: 10px !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        margin-right: 10px !important;
+    }
+
+    .navbar-nav .nav-link {
+        padding-left: 10px !important;
+    }
+
+}

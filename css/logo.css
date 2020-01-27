@@ -1,0 +1,29 @@
+﻿.logo_light{
+    background-image:url(../img/Logo/BetaWhite_white.png);
+    float:left;
+    background-size:100%;
+    width:200px;
+    height:60px;
+    background-repeat:no-repeat;
+    transition:0.3s linear;
+}
+.logo_light:hover{
+    background-image:url("../img/Logo/BetaBlack_white.png");
+}
+.logo_light_light{
+    background-image:url(../img/Logo/BetaWhite.png);
+    float:left;
+    background-size:70%;
+    width:200px;
+    height:45px;
+    background-repeat:no-repeat;
+    transition:0.3s linear;
+}
+.background-image: url(../img/Logo/BetaWhite.png);:hover{
+    background-image:url("../img/Logo/BetaBlack.png");
+}
+
+
+
+
+
